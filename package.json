@@ -5,7 +5,11 @@
   "repository": "https://github.com/atom/language-skill",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herbertagosto/language-skill"
   },
   "dependencies": {
   }
