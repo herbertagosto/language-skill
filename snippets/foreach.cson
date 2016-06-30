@@ -1,0 +1,8 @@
+'.source.skill':
+  'foreach':
+    'prefix': 'foreach'
+    'body': """
+    (foreach $1
+    \t$2
+    )
+    """

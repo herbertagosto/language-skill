@@ -1,0 +1,10 @@
+'.source.skill':
+  'if-else':
+    'prefix': 'ifelse'
+    'body': """
+    (if $1 then
+    \t$2
+    else
+    \t$3
+    )
+    """

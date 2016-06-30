@@ -1,0 +1,8 @@
+'.source.skill':
+  'when':
+    'prefix': 'when'
+    'body': """
+    (when $1
+    \t$2
+    )
+    """

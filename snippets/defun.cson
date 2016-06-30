@@ -1,0 +1,10 @@
+'.source.skill':
+  'defun':
+    'prefix': 'defun'
+    'body': """
+    (defun $1 ($2)
+    \t(let ($3)
+    \t\t$4
+    \t)
+    )
+    """

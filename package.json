@@ -1,0 +1,12 @@
+{
+  "name": "language-skill",
+  "version": "0.0.0",
+  "description": "SKILL language support in Atom",
+  "repository": "https://github.com/atom/language-skill",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
