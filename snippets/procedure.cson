@@ -2,7 +2,7 @@
   'procedure':
     'prefix': 'procedure'
     'body': """
-    (procedure $1($2)
+    (procedure ${1:functionName}($2)
     \t(let ($3)
     \t\t$4
     \t)

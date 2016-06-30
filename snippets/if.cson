@@ -2,7 +2,7 @@
   'if':
     'prefix': 'if'
     'body': """
-    (if $1 then
+    (if ${1:condition} then
     \t$2
     )
     """

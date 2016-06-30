@@ -2,7 +2,7 @@
   'case':
     'prefix': 'case'
     'body': """
-    (case $1
+    (case ${1:key}
     \t($2
     \t\t$3
     \t)

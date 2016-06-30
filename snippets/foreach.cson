@@ -2,7 +2,7 @@
   'foreach':
     'prefix': 'foreach'
     'body': """
-    (foreach $1
-    \t$2
+    (foreach ${1:item} ${2:list}
+    \t$3
     )
     """
