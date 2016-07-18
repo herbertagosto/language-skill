@@ -1,0 +1,8 @@
+'.source.skill':
+  'unless':
+    'prefix': 'unless'
+    'body': """
+    (unless ${1:condition}
+    \t$2
+    )
+    """

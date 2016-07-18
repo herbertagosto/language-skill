@@ -1,5 +1,5 @@
 '.source.skill':
-  'if-else':
+  'ifelse':
     'prefix': 'ifelse'
     'body': """
     (if ${1:condition} then
