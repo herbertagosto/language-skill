@@ -53,7 +53,7 @@
     'functions':
         'patterns': [
             {
-                'match': '(\\b(?i:(defun|defmacro|defstruct|defclass|defmethod|defconstant|defvar))\\b)(\\s+)((\\w|\\-|\\!|\\?)*)'
+                'match': '(\\b(?i:(defun|defmacro|defstruct|defclass|defmethod|defconstant|defvar|defgeneric))\\b)(\\s+)((\\w|\\-|\\!|\\?)*)'
                 'captures':
                     '2':
                         'name': 'storage.type.function-type.skill'
