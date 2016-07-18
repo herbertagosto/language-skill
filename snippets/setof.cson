@@ -1,0 +1,6 @@
+'.source.skill':
+  'setof':
+    'prefix': 'setof'
+    'body': """
+    setof(x ${1:list} ${2:condition})
+    """
