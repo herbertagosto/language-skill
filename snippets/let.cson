@@ -1,0 +1,8 @@
+'.source.skill':
+  'let':
+    'prefix': 'let'
+    'body': """
+    (let (${1:variable})
+    \t$2
+    )
+    """
