@@ -1,7 +1,7 @@
 
 '.source.skill':
-  'setof':
-    'prefix': 'setof'
+  'sort':
+    'prefix': 'sort'
     'body': """
     sort(${1:list} 'axlStrcmpAlpNum)
     """
