@@ -1,6 +1,6 @@
 '.source.skill':
   'maketable':
-    'prefix': 'makeTable'
+    'prefix': 'maketable'
     'body': """
-    maketable("${1:tableid}" ${2:nil})
+    makeTable("${1:tableid}" ${2:nil})
     """
